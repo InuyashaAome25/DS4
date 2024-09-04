@@ -1,5 +1,6 @@
 ﻿internal class Program
 {
+    //Link de github: https://github.com/InuyashaAome25/DS4/commit/db9afaeb49d4a1f35a63993f14da69a606995bf8
     private static void Main()
     {
         //Asignacion a la variables estatica 
