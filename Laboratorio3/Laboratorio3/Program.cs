@@ -1,5 +1,6 @@
 ﻿internal class Program
 {
+    //Link de GitHub repo: https://github.com/InuyashaAome25/DS4/tree/Laboratorios
     private static void Main(string[] args)
     {
         int primerNumero, segundoNumero, suma;
