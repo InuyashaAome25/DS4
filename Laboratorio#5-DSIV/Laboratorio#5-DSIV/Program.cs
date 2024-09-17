@@ -1,5 +1,6 @@
 ﻿internal class Program
 {
+    //link de repositorio: https://github.com/InuyashaAome25/DS4/tree/Laboratorios/Laboratorio%235-DSIV
     private static void Main(string[] args)
     {
         //Declaracion de vectores
