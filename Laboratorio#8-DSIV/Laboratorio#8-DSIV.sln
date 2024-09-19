@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laboratorio#8.5-DSIV", "Lab
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laboratorio#8.6-DSIV", "Laboratorio#8.6-DSIV\Laboratorio#8.6-DSIV.csproj", "{0BA8AD2B-3F08-4F94-8BE7-A8296B37FE8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratorio#8.7-DSIV", "Laboratorio#8.7-DSIV\Laboratorio#8.7-DSIV.csproj", "{20D621D6-CCA5-44F3-8998-3E37AD7BA4D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laboratorio#8.7-DSIV", "Laboratorio#8.7-DSIV\Laboratorio#8.7-DSIV.csproj", "{20D621D6-CCA5-44F3-8998-3E37AD7BA4D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratorio#8.8-DSIV", "Laboratorio#8.8-DSIV\Laboratorio#8.8-DSIV.csproj", "{8B075728-C92D-464F-94C5-7BE80EE08408}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laboratorio#8.8-DSIV", "Laboratorio#8.8-DSIV\Laboratorio#8.8-DSIV.csproj", "{8B075728-C92D-464F-94C5-7BE80EE08408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratorio#8.9-DSIV", "Laboratorio#8.9-DSIV\Laboratorio#8.9-DSIV.csproj", "{EA76EF7E-1D52-43B2-BC1F-62EBED6CBF01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{8B075728-C92D-464F-94C5-7BE80EE08408}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B075728-C92D-464F-94C5-7BE80EE08408}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B075728-C92D-464F-94C5-7BE80EE08408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA76EF7E-1D52-43B2-BC1F-62EBED6CBF01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA76EF7E-1D52-43B2-BC1F-62EBED6CBF01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA76EF7E-1D52-43B2-BC1F-62EBED6CBF01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA76EF7E-1D52-43B2-BC1F-62EBED6CBF01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
