@@ -7,11 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratorio#13-DSIV", "Labo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratorio#13.2-DSIV", "Laboratorio#13.2-DSIV\Laboratorio#13.2-DSIV.csproj", "{AC686757-2D7E-4C12-A80B-156F98DA7842}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QUERY", "QUERY", "{7E965204-62C4-4E3A-8ACB-3A1A34B37677}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\Documents\SQL Server Management Studio\Laboratorio13-Cesar_Castillo.sql = ..\..\..\..\Documents\SQL Server Management Studio\Laboratorio13-Cesar_Castillo.sql
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
