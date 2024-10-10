@@ -51,5 +51,11 @@ namespace Laboratorio_12_DSIV
             // Cerrar la aplicación
             Application.Exit();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            txtVelocidad.Text = "Ingrese la velocidad";
+            txtTiempo.Text = "Ingrese el dato en minutos";
+        }
     }
 }

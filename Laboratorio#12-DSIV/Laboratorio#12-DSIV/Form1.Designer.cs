@@ -43,17 +43,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(281, 9);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(230, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(222, 23);
+            this.label1.Size = new System.Drawing.Size(307, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "Calculadora de Distancia";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.OrangeRed;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.Control;
             this.label2.Location = new System.Drawing.Point(94, 99);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(81, 19);
@@ -63,7 +65,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.OrangeRed;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.Control;
             this.label3.Location = new System.Drawing.Point(97, 166);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(65, 19);
@@ -72,6 +76,8 @@
             // 
             // txtVelocidad
             // 
+            this.txtVelocidad.BackColor = System.Drawing.Color.Turquoise;
+            this.txtVelocidad.ForeColor = System.Drawing.Color.Black;
             this.txtVelocidad.Location = new System.Drawing.Point(188, 96);
             this.txtVelocidad.Name = "txtVelocidad";
             this.txtVelocidad.Size = new System.Drawing.Size(248, 22);
@@ -79,6 +85,8 @@
             // 
             // txtTiempo
             // 
+            this.txtTiempo.BackColor = System.Drawing.Color.Turquoise;
+            this.txtTiempo.ForeColor = System.Drawing.Color.Black;
             this.txtTiempo.Location = new System.Drawing.Point(188, 166);
             this.txtTiempo.Name = "txtTiempo";
             this.txtTiempo.Size = new System.Drawing.Size(248, 22);
@@ -86,6 +94,7 @@
             // 
             // btnCalcular
             // 
+            this.btnCalcular.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCalcular.Font = new System.Drawing.Font("Times New Roman", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalcular.Location = new System.Drawing.Point(63, 262);
             this.btnCalcular.Name = "btnCalcular";
@@ -97,6 +106,7 @@
             // 
             // btnLimpiar
             // 
+            this.btnLimpiar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLimpiar.Font = new System.Drawing.Font("Times New Roman", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLimpiar.Location = new System.Drawing.Point(299, 262);
             this.btnLimpiar.Name = "btnLimpiar";
@@ -108,6 +118,7 @@
             // 
             // btnSalir
             // 
+            this.btnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSalir.Font = new System.Drawing.Font("Times New Roman", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.Location = new System.Drawing.Point(515, 262);
             this.btnSalir.Name = "btnSalir";
@@ -120,7 +131,9 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.OrangeRed;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.Control;
             this.label4.Location = new System.Drawing.Point(83, 360);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 19);
@@ -129,6 +142,7 @@
             // 
             // txtResultados
             // 
+            this.txtResultados.BackColor = System.Drawing.Color.LightYellow;
             this.txtResultados.Location = new System.Drawing.Point(188, 357);
             this.txtResultados.Name = "txtResultados";
             this.txtResultados.Size = new System.Drawing.Size(248, 22);
@@ -152,6 +166,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
