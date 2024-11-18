@@ -50,6 +50,9 @@
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/">Inicio</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/About">Acerca de</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/TablaMultiplicacion.aspx">Tabla de Multiplicación</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/MatrizNXN.aspx">Matriz - Problema 2</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/GestionProductos.aspx">Lab 14 - Problema 3</a></li>
                     </ul>
                 </div>
             </div>

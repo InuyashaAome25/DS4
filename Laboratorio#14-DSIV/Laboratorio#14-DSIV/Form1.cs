@@ -123,7 +123,7 @@ namespace Laboratorio_14_DSIV
             btnGuardar.Enabled = false;
             btnCancelar.Enabled = false;
             btnEliminar.Enabled = false;
-            txtID.Enabled = true;
+            txtID.Enabled = false;
             txtBusqueda.Enabled = true;
             txtNombre.Enabled = false;
             txtPrecio.Enabled = false;
